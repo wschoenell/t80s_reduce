@@ -14,7 +14,7 @@ setup(
     install_requires=['astropy',
                       'colorlog',
                       'ccdproc>=0.3.3',
-                      'fit_reduce',
+                      'fits_reduce',
                       'pyyaml'],
     dependency_links=['https://github.com/tribeiro/fits_reduce/archive/master.zip'],
     scripts=['scripts/t80s_check_calibrations','scripts/t80s_gen_download','scripts/t80s_process',
